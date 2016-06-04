@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.OffStreet">
+	<ContentPage.Content>
+	           <StackLayout>
+	             <Image Source = "offstreet.png">
+	             </Image>
+	             <Label Text = "Each hour: $4" FontSize = "15" TextColor = "Gray"/>
+	             <Label Text = "Daily max: $40" FontSize = "15" TextColor = "Gray"/>
+	             <Label Text = "Maximum parking time: 4h" FontSize = "15" TextColor = "Gray"/>
+	             <Image Source = "ASD.png">
+	             </Image>
+	             <StackLayout>
+	               <Label Text = "please input parking slot number" HorizontalOptions = "Center"/>
+	               <Entry Text = "" />
+	               <Label Text = "parking duration" HorizontalOptions = "Center"/>
+	               <Entry Text = ""/>
+	               <Button Text = "Reserve this spot" FontSize = "25" HorizontalOptions = "Center" Clicked = "ReserveButton_OnClicked" TextColor = "Blue" BorderColor = "Black"/>
+
+	             </StackLayout>
+
+                 
+                
+               </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

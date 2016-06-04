@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.driverMainpage" >
+  <ContentPage.Content>
+	  <StackLayout Padding="0,100,0,0" Spacing="10">
+	     <Label Text = "Welcome to SmartParkingSystem"
+	            HorizontalOptions = "Center"
+	            Font = "large"
+	            VerticalOptions = "Center"
+	     />
+	     <StackLayout>
+	      
+	     <Image Source = "SPS.png"></Image>
+	     <StackLayout/>
+
+	     <StackLayout
+	     Orientation="Horizontal"
+	     HorizontalOptions="Center"
+	     VerticalOptions="Center">
+	     <Button Text = "Driver"
+	             BackgroundColor = "White"
+	             FontSize = "25"
+	             BorderColor = "White"
+	             WidthRequest = "100"
+	             Clicked = "NavigateButton_OnClicked"
+	             HorizontalOptions = "Center"
+	             VerticalOptions = "Center"/>
+	     
+	   
+	    
+	     <Button Text = "Officer"
+	             BackgroundColor = "White"
+	             BorderColor = "White"
+	             FontSize = "25"
+	             WidthRequest = "100"
+	             Clicked = "NavigateButton1_OnClicked"
+	             HorizontalOptions = "Center"
+	             VerticalOptions = "Center"
+	     />
+
+	     </StackLayout>
+	     </StackLayout>
+	    
+
+	  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

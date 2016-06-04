@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.SearchResult" >
+	<ContentPage.Content>
+	   <ListView x:Name = "LocationList" RowHeight = "100" ItemsSource="{Binding SRDetails}" ItemTapped="SearchResultTapped">
+	      <ListView.ItemTemplate>
+	         <DataTemplate>
+	           <ViewCell>
+	              <StackLayout Orientation = "Horizontal" Padding = "5">
+	                 <Image Source = "{Binding ImageName, StringFormat = '{0}.png'}" WidthRequest="95" HeightRequest="95"></Image>
+	                 <StackLayout Orientation = "Vertical">
+	                    <Label Text = "{Binding Locationname, StringFormat = 'Name: {0}'}" FontSize = "10"/>
+	                    <Label Text = "{Binding SpotNumber, StringFormat = 'Available parking slot : {0}'}" FontSize = "10"/>
+	                    <Label Text = "{Binding Distance, StringFormat = 'Your distance form destination : {0}KM'}" FontSize = "10"/>
+	                    <Label Text = "{Binding MaximalPT, StringFormat = 'Maximum parking time : {0}'}" TextColor = "Red" FontSize = "10"/>
+	                     
+	                 </StackLayout>
+	                
+	              </StackLayout>
+	           </ViewCell>
+	         </DataTemplate>
+	      </ListView.ItemTemplate>
+	   </ListView>
+	</ContentPage.Content>
+</ContentPage>

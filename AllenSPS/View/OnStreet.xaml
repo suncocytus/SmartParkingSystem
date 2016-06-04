@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.OnStreet" BackgroundColor = "Navy">
+	<ContentPage.Content>
+	   <StackLayout VerticalOptions= "Center">
+	      <label Text ="Your Name" />
+	      <Entry Text = "1"/>
+
+	      <label Text ="Your Plate Number" />
+	      <Entry Text = "2"/>
+
+	       <label Text ="Your Phone number" />
+	      <Entry Text = "3"/>
+
+	       <label Text ="parking start time" />
+	      <Entry Text = "4"/>
+
+	       <label Text ="parking exptire time" />
+	      <Entry Text = "5"/>
+
+	    
+	   </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

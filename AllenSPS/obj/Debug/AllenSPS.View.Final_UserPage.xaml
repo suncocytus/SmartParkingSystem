@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.Final_UserPage" BackgroundColor = "White">
+	<ContentPage.Content>
+	   <StackLayout>
+	    <Label Text = "Your booking is successfully! Thank you for using SPS!" FontSize = "30" HorizontalOptions = "Center"/>
+	    <Label Text = "Your booking number is: 215!" HorizontalOptions = "Center" FontSize = "20"/>
+	    <Button Text = "Push your booking" BorderColor = "Blue"  Clicked = "PushButton_Onclicked" VerticalOptions = "CenterAndExpand"/>
+	   </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

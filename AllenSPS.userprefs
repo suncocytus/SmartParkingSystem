@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="iOS/AllenSPS.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AllenSPS/View/OffStreet.xaml">
+    <Files>
+      <File FileName="AllenSPS/View/OffStreet.xaml" Line="7" Column="37" />
+      <File FileName="AllenSPS/View/SearchResult.xaml" Line="16" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

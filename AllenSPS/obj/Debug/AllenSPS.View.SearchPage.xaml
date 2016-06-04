@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.SearchPage" BackgroundColor = "Navy">
+	<ContentPage.Content>
+	   <StackLayout BackgroundColor="White">
+	     <Grid Padding = "0, 0, 0, 100">
+	      <Entry x:Name="destination" 
+                   Placeholder="input your destination"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="End" />
+		 
+	      </Grid> 
+	      <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+	      <Image Source = "Map3.png"> </Image>
+	      </StackLayout>
+	      <StackLayout Orientation = "Horizontal" HorizontalOptions = "Center">
+	      <Button Clicked = "Button1_Onclicked"
+	              Text = "OnST Parking"
+	              TextColor = "Blue"
+	              HorizontalOptions = "Center"
+
+	              WidthRequest = "100"
+
+	     />
+	   
+	    
+	     <Button Clicked = "Button2_Onclicked"
+	             Text = "OffST Parking"
+	             BackgroundColor = "White"
+	             TextColor = "Blue"
+	             HorizontalOptions = "Center"
+	             WidthRequest = "100"
+
+	     />
+	   
+	     </StackLayout> 
+
+	  </StackLayout>
+	   
+	</ContentPage.Content>
+</ContentPage>

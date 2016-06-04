@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AllenSPS.UserDetail" Title = "Process Your Booking Payment">
+	<ContentPage.Content>
+	    <StackLayout>
+	        <Label Text = "Your name on card"  HorizontalOptions = "Center"
+	            FontSize = "20"
+	            VerticalOptions = "Center"/>
+
+	        <Entry 
+	               Placeholder="input your name on card"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="End" />
+
+	       <Label Text = "Your cardNumber"  HorizontalOptions = "Center"
+	            FontSize = "20"
+	            VerticalOptions = "Center"/>
+
+	        <Entry   
+                   Placeholder="input your cardNumber"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="End" />
+
+            <Label Text = " card Expire date"  HorizontalOptions = "Center"
+	               FontSize = "20"
+	                VerticalOptions = "Center"/>
+
+	        <Entry 
+	               Placeholder="input your card expire date"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="End" />
+
+           <Label Text = " card Pin"  HorizontalOptions = "Center"
+	               FontSize = "20"
+	                VerticalOptions = "Center"/>
+
+	        <Entry 
+	               Placeholder="input your card pin"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="End" />
+
+            <Button Text = "Confirm Your Booking"   
+                 FontSize = "15"
+	             BorderColor = "Blue"
+	             WidthRequest = "150"
+	             Clicked = "ConfirmButton_OnClicked"
+	             HorizontalOptions = "Center"
+	             VerticalOptions = "Center"/>
+	     
+
+
+	    </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
